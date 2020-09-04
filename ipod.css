@@ -113,41 +113,99 @@ h1 {
 	Player
 			*/
 .player-album-art {
-
+	position: relative;
+	left: 25px;
+	top: 25px;
 }
 
 .player-song-info {
-
+	position: relative;
+	text-align: center;
+	top: 17px;
 }
 
 #player-song-name {
+	color: purple;
+	position: relative;
+}
 
+#player-bar {
+	position: relative;
+	width: 235px;
+	left: 30px;
 }
 
 .volume-bar {
-
+	position: relative;
+	float: left;
+	height: 6px;
+	width: 24px;
+	border: 1px;
+	margin: 4px;
+	border-style: solid;
+	left: 60px;
+	top: -200px;
 }
 
 .volume-level {
-
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	height: 10px;
+	left: 60px;
+	top: -205px;
 }
 
 .volume-rocker {
-
+box-sizing: border-box;
+position: relative;
+float: left;
+height: 30px;
+width: 300px;
+left: -175px;
+top: -175px;
 }
 
-.player-controls{
+#volume-down {
+	box-sizing: border-box;
+	position: relative;
+	height: 20px;
+	width: 80px;
+	margin-right: 75px;
+}
 
+#volume-up {
+	box-sizing: border-box;
+	position: relative;
+	height: 20px;
+	width: 80px;
+}
+
+.player-controls {
+	box-sizing: border-box;
+	position: relative;
+	left: 107px;
+	top: -220px;
 }
 
 #player-time {
-
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	left: 35px;
+	width: 300px;
 }
 
 #time-elapsed {
-
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	width: 205px;
 }
 
-#time-total{
-
+#time-total {
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	width: 50px;
 }
